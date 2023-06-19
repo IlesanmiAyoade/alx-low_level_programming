@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-   * main - print digits of base ten
+   * main - prints base ten digits without char
    *
    * Return: zero
    */
@@ -9,8 +9,8 @@ int main(void)
 {
 	int i;
 
-	for (i = 0; i <= 9; i++)
-		printf("%d", i);
-	printf("\n");
+	for (i = '0'; i <= '9'; i++)
+		putchar(i);
+	putchar('\n');
 	return (0);
 }
