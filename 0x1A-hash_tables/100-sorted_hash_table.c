@@ -1,5 +1,5 @@
 /*
- * Auth: Muiz Olaore
+ * Auth: Ilesanmi Benjamin
 */
 
 #include "hash_tables.h"
