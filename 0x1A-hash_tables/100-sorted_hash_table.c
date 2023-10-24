@@ -1,3 +1,7 @@
+/*
+ * Auth: Muiz Olaore
+*/
+
 #include "hash_tables.h"
 
 shash_table_t *shash_table_create(unsigned long int size);
@@ -215,4 +219,5 @@ void shash_table_delete(shash_table_t *ht)
 	}
 
 	free(head->array);
-        free(head);
+	free(head);
+}
