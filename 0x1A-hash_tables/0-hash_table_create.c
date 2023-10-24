@@ -1,3 +1,7 @@
+/*
+ * Author: Ilesanmi Benjamin
+ */
+
 #include "hash_tables.h"
 
 /**
